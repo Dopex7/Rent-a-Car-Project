@@ -1,4 +1,3 @@
-/* Importing Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
@@ -14,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #ff4c30, #ff7e00); /* Updated to a gradient with #ff4c30 */
+  background: linear-gradient(135deg, #ff4c30, #ff7e00);
 }
 
 .container {
@@ -40,7 +39,7 @@ body {
   height: 3px;
   width: 30px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #0073e6, #005bb5); /* Primary and secondary color gradient */
+  background: linear-gradient(135deg, #0073e6, #005bb5); 
 }
 
 .content form .user-details {
@@ -68,14 +67,14 @@ form .input-box span.details {
   font-size: 16px;
   border-radius: 5px;
   padding-left: 15px;
-  border: 1px solid #ff4c30; /* Updated to #ff4c30 */
+  border: 1px solid #ff4c30; 
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
 
 .user-details .input-box input:focus,
 .user-details .input-box input:valid {
-  border-color: #ff4c30; /* Updated to #ff4c30 */
+  border-color: #ff4c30; 
 }
 
 form .gender-details .gender-title {
@@ -109,7 +108,7 @@ form .category label .dot {
 #dot-1:checked~.category label .one,
 #dot-2:checked~.category label .two,
 #dot-3:checked~.category label .three {
-  background: #0073e6; /* Primary color */
+  background: #0073e6; 
   border-color: #d9d9d9;
 }
 
@@ -133,14 +132,13 @@ form .button input {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: linear-gradient(135deg, #ff4c30, #ff7e00); /* Updated to use #ff4c30 */
+  background: linear-gradient(135deg, #ff4c30, #ff7e00); 
 }
 
 form .button input:hover {
-  background: linear-gradient(-135deg, #ff4c30, #ff7e00); /* Updated to use #ff4c30 */
+  background: linear-gradient(-135deg, #ff4c30, #ff7e00); 
 }
 
-/* Responsive media query code for mobile devices */
 @media(max-width: 584px) {
   .container {
     max-width: 100%;
@@ -165,7 +163,6 @@ form .button input:hover {
   }
 }
 
-/* Responsive media query code for mobile devices */
 @media(max-width: 459px) {
   .container .content .category {
     flex-direction: column;
